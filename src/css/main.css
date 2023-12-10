@@ -1,0 +1,234 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.section-center {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+/* ======================== nav ========================= */
+.left-nav-con > ul {
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+}
+.left-nav-con > ul > li {
+    list-style: none;
+}
+.left-nav-con > ul > li > a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: inherit;
+}
+.right-nav-con > button > a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: inherit;
+}
+.right-nav-con > button {
+    border: none;
+    background: none;
+}
+.nav {
+    box-shadow: 0 0 5px;
+}
+.nav-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* =================== Home ====================== */
+
+.home-btn-con > ul > li {
+    list-style: none;
+    font-size: 1.3rem;
+    padding: .5rem;
+    font-weight: 600;
+}
+.home-btn-con > ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    padding: 2rem;
+}
+.undefined {
+    background-color: beige;
+}
+
+.blue-color {
+    background-color: blue;
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.blue-colo {
+    background-color: blue;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* ================== Auth ================== */
+
+.auth-container {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.login-con {
+    background-color: aquamarine;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 500px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.login-con > h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+.login-con > button {
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ================= Single Moveis ====================== */
+
+.movies-con > h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.movies {
+    display: grid;
+    gap: 1rem;
+    padding: 1.5rem 0;
+    grid-template-columns: repeat(3,1fr);
+}
+.image-con {
+    width: 100%;
+    height: 350px;
+}
+
+.single-container {
+    background-color: rgb(205, 205, 205);
+    border-radius: 5px;
+}
+.single-info-con > h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.relea-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10px;
+}
+.relea-con > p {
+    margin: 0;
+}
+.rated-btn {
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 7px 10px; 
+    cursor: pointer;   
+    font-size: .8rem;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.section-center > h4 {
+    margin: 0;
+   font-size: 2rem;
+   padding: 1rem;
+   text-align: center;
+   font-family: 'Courier New', Courier, monospace;
+}
+.single-info-cotainer {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 3rem;
+}
+.img-con {
+    flex: 0 0 45%;
+}
+.image {
+    width: 100%;
+    height: 100%;
+}
+.information-con {
+    flex: 0 0 50%;
+}
+.information > h3 {
+    margin: 0;
+}
+.information > p {
+    margin: 0;
+}
+.information {
+    padding: 5px 0;
+}
+.genres {
+    display: flex;
+    gap: 10px;
+}
+.genres > p {
+    margin: 0;
+}
+.production > p {
+    margin: 0;
+}
+
+.information > a {
+    text-decoration: none;
+    color: inherit;
+    color: blue;
+}
+.single-section-con {
+    padding: 2rem 0;
+}
+.networks-img {
+    width: 90px;
+    padding-top: 2px;
+}
+.season-con {
+    margin: 0;
+}
+.season-info > p {
+    margin : 0;
+}
+.season-info {
+    padding: 4px 0;
+    cursor: pointer;
+}
+.season-con {
+    height: 120px;
+    overflow-y: scroll;
+}
+.season-con::-webkit-scrollbar {
+    border: 1px solid aliceblue;
+}
